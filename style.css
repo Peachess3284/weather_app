@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, rgb(175, 216, 233), rgba(5, 66, 90, 0.705)) no-repeat;
+}
+
+.weather-app {
+    min-height: 100vh;    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
